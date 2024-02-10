@@ -1,6 +1,6 @@
 # drizzle-orm-sandbox
 
-A sandbox for playing with Drizzle ORM
+A sandbox for playing with [Drizzle ORM](https://orm.drizzle.team/)
 
 ## Installation
 
