@@ -1,14 +1,18 @@
-# node-typescript
+# drizzle-orm-sandbox
 
-A template project for Node apps written in TypeScript.
+A sandbox for playing with Drizzle ORM
 
 ## Installation
 
 `yarn install`
 
+## Setup
+
+`yarn db:setup`
+
 ## Running
 
-`yarn start` (watches with nodemon)
+`yarn start`
 
 ## License
 
