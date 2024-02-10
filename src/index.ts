@@ -1,5 +1,4 @@
 import { drizzle } from "drizzle-orm/postgres-js";
-import { migrate } from "drizzle-orm/postgres-js/migrator";
 import postgres from "postgres";
 import * as schema from "./schema";
 
@@ -10,8 +9,6 @@ const sql = postgres(connectionString, { max: 1 })
 const db = drizzle(sql, { schema });
 
 (async () => {
-  await migrate(db, { migrationsFolder: "drizzle" });
-
   await db.delete(user);
   await db.insert(user).values({
     name: "josh"
